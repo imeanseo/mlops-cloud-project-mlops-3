@@ -2,7 +2,7 @@ name: ci-python
 on:
   pull_request:
   push:
-    branches: [ imeanseo ]
+    branches: [ main ]
   workflow_dispatch: {}   # 수동 실행 허용
 
 jobs:
