@@ -35,13 +35,13 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <table>
 <tr>
 <td align="center" width="200px">
-<a href="https://github.com/USERNAME"><img src="https://avatars.githubusercontent.com/u/89570502?v=4" width="150px;" alt="권문진"/></a>
+<a href="https://github.com/moongs95"><img src="https://avatars.githubusercontent.com/u/89570502?v=4" width="150px;" alt="권문진"/></a>
 </td>
 <td align="center" width="200px">
 <a href="https://github.com/imeanseo"><img src="https://avatars.githubusercontent.com/u/221927853?v=4" width="150px;" alt="고민서"/></a>
 </td>
 <td align="center" width="200px">
-<a href="https://github.com/USERNAME"><img src="https://avatars.githubusercontent.com/u/219617394?v=4" width="150px;" alt="허예경"/></a>
+<a href="https://github.com/yekyung821"><img src="https://avatars.githubusercontent.com/u/219617394?v=4" width="150px;" alt="허예경"/></a>
 </td>
 </tr>
 <tr>
@@ -99,13 +99,13 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 </tr>
 <tr>
 <td align="center">
-<a href="https://github.com/USERNAME"><b>👨🏻‍💻 김동근</b></a>
+<a href="https://github.com/CodMPer"><b>👨🏻‍💻 김동근</b></a>
 </td>
 <td align="center">
-<a href="https://github.com/USERNAME"><b>🐿️ 이수민</b></a>
+<a href="https://github.com/Leesoomin97"><b>🐿️ 이수민</b></a>
 </td>
 <td align="center">
-<a href="https://github.com/USERNAME"><b>🧑🏻‍🦱 이승호</b></a>
+<a href="https://github.com/tourism76"><b>🧑🏻‍🦱 이승호</b></a>
 </td>
 </tr>
 <tr>
