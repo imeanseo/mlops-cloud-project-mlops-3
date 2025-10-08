@@ -425,8 +425,6 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 
 **응답 특징**:
 - JSON 형식의 추천 결과 + 신뢰도 스코어
-- ms 단위 초저지연 응답시간
-- Pydantic 기반 입력 검증
 
 #### C. MySQL Results (Pre-computed)
 - Airflow에서 **미리 계산한 추천 결과 조회**
@@ -508,7 +506,7 @@ RAWG API 기반 **Item-based Collaborative Filtering 게임 추천 시스템**�
 
 ### 💡 핵심 인사이트
 
-**MLOps 철학**:
+**MLOps**:
 - **자동화**가 단순 모델링보다 중요 → 지속가능한 파이프라인이 핵심
 - **재현성** 확보로 팀 협업 효율 극대화 (Docker + 버전 관리)
 - **데이터 엔지니어링**과 모델링의 긴밀한 연결 필요성 체감
