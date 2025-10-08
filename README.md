@@ -268,7 +268,7 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 - 일정 주기로 입력 데이터 일괄 처리 후 MySQL/S3에 결과 저장
 - DAG 기반 워크플로우 관리로 재활용 가능한 배치 예측
 
-### 4. 완전 자동화된 MLOps 파이프라인
+### 4. 자동화된 MLOps 파이프라인
 - **GitHub Actions CI/CD**: 
   - 코드 푸시 → Unit Test → Docker 이미지 빌드 → DockerHub Push
   - Airflow DAG 자동 트리거 → EC2 내 FastAPI 서비스 배포
@@ -377,11 +377,9 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 ## 🛠️ 작품 아키텍처 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/025cd800-3ca6-430a-897a-5b09495048a4" width="900"/>
+  <img src="https://github.com/user-attachments/assets/52c114e3-9c34-40f8-b3dc-705fb1a0682f" width="900"/>
   <p><i>게임 추천 시스템 MLOps 파이프라인 전체 구조</i></p>
 </div>
-
-
 
 
 
