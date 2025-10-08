@@ -1,10 +1,13 @@
 <!-- Header -->
 <div align="center">
   
-![header](https://capsule-render.vercel.app/api?type=rounded&height=180&text=Group3%20Thirdparty%20Game%20Recommendation&desc=MLOps%20Project%20🎮&fontSize=30&descSize=20&descAlignY=65&color=gradient&customColorList=0,2,6,11,20&fontColor=ffffff&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=rounded&height=180&text=Group3%20Thirdparty%20Game%20Recommendation&desc=MLOps%20Project%20🎮&fontSize=35&descSize=20&descAlignY=65&color=gradient&customColorList=0,2,6,11,20&fontColor=ffffff&animation=fadeIn)
 
 <h3>🚀 Item-based Collaborative Filtering으로 구현한 게임 추천 시스템 🚀</h3>
-  
+
+[![GitHub stars](https://img.shields.io/github/stars/AIBootcamp16/mlops-cloud-project-mlops-3?style=social)](https://github.com/AIBootcamp16/mlops-cloud-project-mlops-3)
+[![GitHub forks](https://img.shields.io/github/forks/AIBootcamp16/mlops-cloud-project-mlops-3?style=social)](https://github.com/AIBootcamp16/mlops-cloud-project-mlops-3)
+
 </div>
 
 <br><br>
@@ -12,16 +15,16 @@
 ## 💻 프로젝트 소개
 
 ### 프로젝트 개요
-MLOps 파이프라인을 활용한 **게임 추천 시스템** 구축 프로젝트입니다. Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤형 게임을 추천하며, 
-개별 게임의 속성과 사용자의 성향을 분석하고, 유사도가 높은 게임을 추천함으로써 맞춤형 결과를 제공하는 것을 목표로 설정했습니다.
+MLOps 파이프라인을 활용한 **게임 추천 시스템** 구축 프로젝트입니다. 
 
+Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤형 게임을 추천하며, 개별 게임의 속성과 사용자의 성향을 분석하여 유사도가 높은 게임을 추천함으로써 맞춤형 결과를 제공하는 것을 목표로 설정했습니다.
 
 ### 작품 특징
-- **자동화된 ML 파이프라인**: Airflow를 통한 데이터 수집부터 모델 학습, 배포까지 전 과정 자동화
-- **실시간 추천 API**: FastAPI 기반의 고성능 추천 서비스 제공
-- **컨테이너 기반 배포**: Docker를 활용한 환경 독립적인 배포 및 운영
-- **실험 관리**: WANDB, S3를 통한 체계적인 모델 실험 추적 및 관리
-- **단순 인기 · 장르 추천의 한계**를 넘어, **게임 속성 + 사용자 행동 데이터로 개인의 세부 취향 프로파일**을 만들고 그에 맞춘 맞춤 추천을 제공
+- 🤖 **자동화된 ML 파이프라인**: Airflow를 통한 데이터 수집부터 모델 학습, 배포까지 전 과정 자동화
+- ⚡ **실시간 추천 API**: FastAPI 기반의 고성능 추천 서비스 제공
+- 🐳 **컨테이너 기반 배포**: Docker를 활용한 환경 독립적인 배포 및 운영
+- 📊 **실험 관리**: WANDB, S3를 통한 체계적인 모델 실험 추적 및 관리
+- 🎯 **개인화 추천**: 단순 인기·장르 추천의 한계를 넘어, 게임 속성 + 사용자 행동 데이터로 세부 취향 프로파일을 생성하여 맞춤 추천 제공
 
 <br>
 
@@ -134,9 +137,24 @@ MLOps 파이프라인을 활용한 **게임 추천 시스템** 구축 프로젝�
 
 
 ## 🔨 개발 환경 및 기술 스택
-- 주 언어 : _python_
-- 버전 및 이슈관리 : _github_
-- 협업 툴 : _github, notion, discord, google-drive_
+### 💻 Languages & Frameworks
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+### 🛠️ MLOps & Data Engineering
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### ☁️ Cloud & Tools
+![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![Weights & Biases](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
+
+### 🤝 Collaboration
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)
 
 <br>
 
