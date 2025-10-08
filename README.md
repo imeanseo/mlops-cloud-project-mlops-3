@@ -282,7 +282,7 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <br>
 
 ## 🛠️ 시스템 아키텍처
-```
+
 graph TB
     A[GitHub Actions CI/CD] --> B[RAWG API]
     B --> C[Data Pipeline<br/>crawler.py, main.py]
@@ -301,7 +301,7 @@ graph TB
     style F fill:#f3e5f5
     style J fill:#e8f5e9
     style K fill:#fce4ec
-```
+
 
 **핵심 아키텍처 특징**:
 - **완전 자동화**: 데이터 수집 → 전처리 → 학습 → DB 적재 → 웹 배포 전 과정 자동화
