@@ -1,7 +1,7 @@
 <!-- Header -->
 <div align="center">
   
-![header](https://capsule-render.vercel.app/api?type=rounded&height=180&text=Group3%20Thirdparty%20Game%20Recommendation&desc=MLOps%20Project%20🎮&fontSize=45&descSize=20&descAlignY=65&color=gradient&customColorList=0,2,6,11,20&fontColor=ffffff&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=rounded&height=180&text=Group3%20Thirdparty%20Game%20Recommendation&desc=MLOps%20Project%20🎮&fontSize=30&descSize=20&descAlignY=65&color=gradient&customColorList=0,2,6,11,20&fontColor=ffffff&animation=fadeIn)
 
 <h3>🚀 Item-based Collaborative Filtering으로 구현한 게임 추천 시스템 🚀</h3>
   
