@@ -377,9 +377,12 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 ## 🛠️ 작품 아키텍처 
 
 <div align="center">
-  <img width="800" alt="MLOps Architecture" src="https://github.com/user-attachments/assets/f2aa6af3-5ed4-4cdc-8650-234a23948175" />
+  <img width="1714" height="994" alt="스크린샷 2025-10-08 190644" src="https://github.com/user-attachments/assets/d39c7aa2-c774-47b9-9087-2c739a5a25a9" />
   <p><i>게임 추천 시스템 MLOps 파이프라인 전체 구조</i></p>
 </div>
+
+
+
 
 
 ## 🚨 트러블 슈팅
