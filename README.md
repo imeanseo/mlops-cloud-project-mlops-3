@@ -377,7 +377,7 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 ## 🛠️ 작품 아키텍처 
 
 <div align="center">
-  ![KakaoTalk_20251008_191430574](https://github.com/user-attachments/assets/a91d7584-5a56-4f6c-a735-a707e9872962)
+  ![architecture](https://github.com/user-attachments/assets/025cd800-3ca6-430a-897a-5b09495048a4)
   <p><i>게임 추천 시스템 MLOps 파이프라인 전체 구조</i></p>
 </div>
 
