@@ -63,6 +63,8 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <sub>✅ 모델 학습 및 평가</sub><br>
 <sub>✅ 모델 추론</sub><br>
 <sub>✅ 모델 배포</sub><br>
+<sub>✅ Airflow 배치 서빙 파이프라인</sub><br>
+<sub>✅ 웹 인터페이스</sub><br>
 <sub>✅ 정적 웹사이트 배포</sub><br>
 <sub>✅ PPT 자료 구성</sub>
 </td>
@@ -73,6 +75,7 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <sub>✅ 모델 학습 및 평가</sub><br>
 <sub>✅ 모델 추론</sub><br>
 <sub>✅ 모델 배포</sub><br>
+<sub>✅ Airflow 배치 서빙 파이프라인</sub><br>
 <sub>✅ PPT 자료 구성</sub><br>
 <sub>✅ ReadMe 구성</sub>
 </td>
@@ -81,7 +84,8 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <sub>✅ 주제 선정</sub><br>
 <sub>✅ 데이터 전처리</sub><br>
 <sub>✅ Modeling</sub><br>
-<sub>✅ 모델 배포</sub><br>
+<sub>✅ Airflow 배치 서빙 파이프라인</sub><br>
+<sub>✅ 웹 인터페이스</sub><br>
 <sub>✅ UI 변경</sub><br>
 <sub>✅ PPT 자료 구성</sub>
 </td>
@@ -119,7 +123,8 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <sub>✅ 주제 선정</sub><br>
 <sub>✅ 데이터 전처리</sub><br>
 <sub>✅ Modeling</sub><br>
-<sub>✅ 모델 배포</sub><br>
+<sub>✅ Airflow 배치 서빙 파이프라인</sub><br>
+<sub>✅ 웹 인터페이스</sub><br>
 <sub>✅ UI 변경</sub><br>
 <sub>✅ PPT 자료 구성</sub>
 </td>
