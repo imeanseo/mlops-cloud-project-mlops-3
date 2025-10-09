@@ -474,7 +474,7 @@ RAWG API 기반 **Item-based Collaborative Filtering 게임 추천 시스템**�
 - 노션: 자료 공유 + 일정계획/관리
 - [Our Notion]("https://www.notion.so/2765ddaf3b4b8071a6d6c280489f94e2?v=2765ddaf3b4b8031b1be000ce0aeca36")
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4525b761-82d7-41b8-8226-b6edcf1b6061" width="900"/>
+  <img src="https://github.com/user-attachments/assets/5239c3a6-e94e-4d97-9ebd-777f7b964206" width="900"/>
   <p><i>노션</i></p>
 </div>
 
