@@ -77,6 +77,7 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <sub>✅ 모델 배포</sub><br>
 <sub>✅ Airflow 배치 서빙 파이프라인</sub><br>
 <sub>✅ PPT 자료 구성</sub><br>
+<sub>✅ 시스템,작품 아키텍쳐 구성</sub><br>
 <sub>✅ ReadMe 구성</sub>
 </td>
 <td align="center">
@@ -471,9 +472,10 @@ RAWG API 기반 **Item-based Collaborative Filtering 게임 추천 시스템**�
 
 **📋 일정 관리 툴**
 - 노션: 자료 공유 + 일정계획/관리
+- [Our Notion]("https://www.notion.so/2765ddaf3b4b8071a6d6c280489f94e2?v=2765ddaf3b4b8031b1be000ce0aeca36")
 <div align="center">
   <img src="https://github.com/user-attachments/assets/4525b761-82d7-41b8-8226-b6edcf1b6061" width="900"/>
-  <p><i>게임 추천 시스템 MLOps 파이프라인 전체 구조</i></p>
+  <p><i>노션</i></p>
 </div>
 
 **💡 문제 해결 방법**
