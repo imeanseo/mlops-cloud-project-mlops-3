@@ -377,7 +377,7 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 ## 🛠️ 작품 아키텍처 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/52c114e3-9c34-40f8-b3dc-705fb1a0682f" width="900"/>
+  <img src="https://github.com/user-attachments/assets/ffcba4c9-e85a-4f59-b435-375e351bac68" width="900"/>
   <p><i>게임 추천 시스템 MLOps 파이프라인 전체 구조</i></p>
 </div>
 
