@@ -430,6 +430,15 @@ RAWG API 기반 **Item-based Collaborative Filtering 게임 추천 시스템**�
 | 모니터링 | WandB 실험 추적, S3 모델 버전 관리 (v1~v7) |
 | CI/CD | GitHub Actions 기반 테스트/빌드/배포 자동화 |
 
+### 모델 선정
+구성 요소                   |  사용 기술              |  선정 이유                                                                                                
+------------------------+---------------------+-------------------------------------------------------------------------------------------------------
+CI/CD                   |  GitHub Actions     |  GitHub 기반 형상관리 환경과 자연스럽게 연동되어, 코드 변경 시 자동 테스트·빌드·배포 가능. 협업 효율과 파이프라인 일관성 확보                          
+Workflow Orchestration  |  Airflow            |  범용적이고 확장성 높은 워크플로우 관리 도구로, 데이터 수집 → 전처리 → 모델링 → 배포까지 전체 파이프라인 자동화 가능. 추천 시스템의 주기적 업데이트 및 재학습 스케줄링에 적합
+Database                |  MySQL              |  관계형 DB로 구조화된 데이터 관리에 용이하며, Airflow·FastAPI 등과의 연동성이 높음. EC2 환경에서도 안정적으로 동작                           
+Notification            |  Slack Webhook      |  팀 내 주요 알림(파이프라인 완료, 오류 등)을 Slack으로 실시간 전송. 이미 팀 소통 플랫폼으로 Slack을 사용 중이어서 관리 효율 극대화                    
+Storage                 |  AWS S3             |  대용량 모델 및 데이터 파일을 안정적으로 저장 가능. Airflow Operator를 통해 접근이 용이하며, 버전 관리 및 백업에도 유리                         
+Deployment              |  FastAPI + AWS EC2  |  FastAPI는 경량·고성능 비동기 프레임워크로 ML 모델 서빙에 최적화. EC2는 AWS 무료 크레딧 지원과 유연한 확장성으로 실제 서비스 배포 환경 구현 가능           
 ---
 
 ### 💡 핵심 인사이트
@@ -444,8 +453,34 @@ RAWG API 기반 **Item-based Collaborative Filtering 게임 추천 시스템**�
 - Airflow 워크플로우 자동화, GitHub Actions CI/CD가 **프로젝트 안정성과 생산성**의 핵심
 
 **협업**:
-- 기술 스킬만큼 **커뮤니케이션**이 중요함을 깨달음
-- 문서화와 실시간 소통으로 팀 역량 격차 해소
+🤝 협업 방식
+자료공유: 디스코드, 슬랙
+
+소통 및 회의: 디스코드, 줌
+
+효율적 분업 + 필요시 실시간 토의로 즉시 협업 진행
+
+📆 협업 일정 및 방식
+디스코드 매일 10시간 정기 미팅
+
+진행 상황 실시간 공유
+
+⚠️ 협업 중 문제점
+MLOps 구현 범위 의견 차이
+
+코드 전달/동기화 관련 트러블 슈팅
+
+역할 분담(투트랙) 실제 적용 난이도
+
+📋 일정 관리 툴
+노션: 자료 공유 + 일정계획/관리
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4525b761-82d7-41b8-8226-b6edcf1b6061" width="900"/>
+  <p><i>게임 추천 시스템 MLOps 파이프라인 전체 구조</i></p>
+</div>
+
+💡 문제 해결 방법
+강사님 멘토링 및 피드백 적극 수용, 충분한 의사소통을 통해 코드 구현 과정 확인 후 디버깅 완료, 개인 역량에 맞는 역할 분배
 
 ---
 
@@ -462,9 +497,15 @@ RAWG API 기반 **Item-based Collaborative Filtering 게임 추천 시스템**�
 
 <br>
 
-
 ## 📰​ 참고자료
-- _참고자료를 첨부해주세요_
+
+[🎮 RAWG API](https://rawg.io/apidocs)
+
+[🔄 Airflow Docker](https://youtu.be/LmQhHcueJs0)
+
+[⚙️ GitHub Actions](https://youtu.be/iLqGzEkusIw)
+
+[☁️ AWS S3](https://www.youtube.com/watch?v=LazOCTfdSeQ)
 
 <br>
 
