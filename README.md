@@ -109,7 +109,7 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <a href="https://github.com/Leesoomin97"><b>🐿️ 이수민</b></a>
 </td>
 <td align="center">
-<a href="https://github.com/tourism76"><b>🧑🏻‍🦱 이승호</b></a>
+<a href="https://github.com/tourism76"><b>🧑 이승호</b></a>
 </td>
 </tr>
 <tr>
@@ -117,6 +117,7 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <sub><b>📌 담당 역할</b></sub><br>
 <sub>✅ 주제 선정</sub><br>
 <sub>✅ 게임 이미지 데이터 수집</sub><br>
+<sub>✅ AWS 자료 조사</sub>
 </td>
 <td align="center">
 <sub><b>📌 담당 역할</b></sub><br>
@@ -475,7 +476,7 @@ RAWG API 기반 **Item-based Collaborative Filtering 게임 추천 시스템**�
   <p><i>게임 추천 시스템 MLOps 파이프라인 전체 구조</i></p>
 </div>
 
-💡 문제 해결 방법
+**💡 문제 해결 방법**
 - 강사님 멘토링 및 피드백 적극 수용, 충분한 의사소통을 통해 코드 구현 과정 확인 후 디버깅 완료, 개인 역량에 맞는 역할 분배
 
 ---
