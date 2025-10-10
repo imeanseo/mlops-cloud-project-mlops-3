@@ -1,0 +1,35 @@
+FROM python:3.9-slim
+
+# 환경 변수
+ENV AIRFLOW_HOME=/usr/local/airflow
+ENV AIRFLOW__CORE__LOAD_EXAMPLES=False
+ENV AIRFLOW__CORE__SQL_ALCHEMY_CONN=sqlite:////usr/local/airflow/airflow.db
+
+# OS 패키지 설치
+RUN apt-get update && \
+    apt-get install -y gcc libc-dev vim && \
+    rm -rf /var/lib/apt/lists/*
+
+# Airflow 설치
+RUN pip install --no-cache-dir apache-airflow==2.2.3
+RUN pip install pymysql
+
+# 작업 디렉토리 생성
+RUN mkdir -p $AIRFLOW_HOME
+WORKDIR $AIRFLOW_HOME
+
+# requirements 설치
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# DAG 복사
+COPY dags/ml3_dag.py $AIRFLOW_HOME/dags/
+
+# 포트 노출
+EXPOSE 8080
+
+# 초기화 후 웹서버 + 스케줄러 실행
+CMD airflow db init && \
+    airflow webserver -p 8080 & \
+    airflow scheduler
+
