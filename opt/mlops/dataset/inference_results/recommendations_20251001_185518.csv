@@ -1,0 +1,501 @@
+user_id,game_id,game_name,rating,genre
+1,10942,To The Top,3.9,Racing
+1,74080,Age of War,4.18,Casual
+1,973793,100 Asian Cats,3.87,Adventure
+1,290899,Into the Radius VR,4.21,Action
+1,9753,Rising Storm 2: VIETNAM,3.76,Action
+2,973793,100 Asian Cats,3.87,Adventure
+2,12606,Resident Evil 7 / Biohazard 7 Teaser: Beginning Hour,3.79,Adventure
+2,959817,Wuthering Waves,4.08,Adventure
+2,9800,Streets of Rogue,3.83,Indie
+2,44484,BattleBit,4.06,Indie
+3,290899,Into the Radius VR,4.21,Action
+3,19374,Ghost Master,3.75,Strategy
+3,74080,Age of War,4.18,Casual
+3,1071,Job Simulator,3.83,Action
+3,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+4,31721,The Immortal,3.82,Adventure
+4,10234,Jazzpunk,3.98,Indie
+4,359376,Gravitas,4.0,Indie
+4,959817,Wuthering Waves,4.08,Adventure
+4,9800,Streets of Rogue,3.83,Indie
+5,44484,BattleBit,4.06,Indie
+5,9753,Rising Storm 2: VIETNAM,3.76,Action
+5,216268,Enderal: Forgotten Stories,4.31,Adventure
+5,37194,Devil May Cry 3: Dante's Awakening Special Edition,4.41,Adventure
+5,973793,100 Asian Cats,3.87,Adventure
+6,748414,Aperture Desk Job,3.81,Casual
+6,427567,Bear Party: Adventure,4.33,Adventure
+6,10942,To The Top,3.9,Racing
+6,665016,Blade of Darkness,3.83,Indie
+6,74080,Age of War,4.18,Casual
+7,12606,Resident Evil 7 / Biohazard 7 Teaser: Beginning Hour,3.79,Adventure
+7,9800,Streets of Rogue,3.83,Indie
+7,16739,Delta Force,3.84,Massively Multiplayer
+7,34334,Antarctic Adventure,3.88,Adventure
+7,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+8,440114,1v1.LOL,4.25,Adventure
+8,28222,skate.,4.18,Action
+8,748414,Aperture Desk Job,3.81,Casual
+8,16739,Delta Force,3.84,Massively Multiplayer
+8,37194,Devil May Cry 3: Dante's Awakening Special Edition,4.41,Adventure
+9,12895,Surge,4.0,Indie
+9,9551,Deep Rock Galactic,4.11,Indie
+9,973793,100 Asian Cats,3.87,Adventure
+9,74080,Age of War,4.18,Casual
+9,966102,Aimlabs,3.86,Shooter
+10,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+10,16739,Delta Force,3.84,Massively Multiplayer
+10,1071,Job Simulator,3.83,Action
+10,34334,Antarctic Adventure,3.88,Adventure
+10,748414,Aperture Desk Job,3.81,Casual
+11,959817,Wuthering Waves,4.08,Adventure
+11,12606,Resident Evil 7 / Biohazard 7 Teaser: Beginning Hour,3.79,Adventure
+11,973793,100 Asian Cats,3.87,Adventure
+11,74080,Age of War,4.18,Casual
+11,9551,Deep Rock Galactic,4.11,Indie
+12,31721,The Immortal,3.82,Adventure
+12,959817,Wuthering Waves,4.08,Adventure
+12,44484,BattleBit,4.06,Indie
+12,9800,Streets of Rogue,3.83,Indie
+12,586122,Suspects: Mystery Mansion,3.88,Casual
+13,966102,Aimlabs,3.86,Shooter
+13,31721,The Immortal,3.82,Adventure
+13,16543,LEGO Batman,3.76,Family
+13,1071,Job Simulator,3.83,Action
+13,748414,Aperture Desk Job,3.81,Casual
+14,16739,Delta Force,3.84,Massively Multiplayer
+14,23254,Zumbi Blocks,3.88,Adventure
+14,440114,1v1.LOL,4.25,Adventure
+14,23043,Revenant,4.06,Adventure
+14,74080,Age of War,4.18,Casual
+15,28222,skate.,4.18,Action
+15,665016,Blade of Darkness,3.83,Indie
+15,10942,To The Top,3.9,Racing
+15,74080,Age of War,4.18,Casual
+15,440114,1v1.LOL,4.25,Adventure
+16,16739,Delta Force,3.84,Massively Multiplayer
+16,973793,100 Asian Cats,3.87,Adventure
+16,28222,skate.,4.18,Action
+16,16543,LEGO Batman,3.76,Family
+16,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+17,959817,Wuthering Waves,4.08,Adventure
+17,748414,Aperture Desk Job,3.81,Casual
+17,1071,Job Simulator,3.83,Action
+17,9515,We Were Here,3.78,Adventure
+17,19374,Ghost Master,3.75,Strategy
+18,12606,Resident Evil 7 / Biohazard 7 Teaser: Beginning Hour,3.79,Adventure
+18,665016,Blade of Darkness,3.83,Indie
+18,966102,Aimlabs,3.86,Shooter
+18,1071,Job Simulator,3.83,Action
+18,994787,Awaria,4.2,Indie
+19,959817,Wuthering Waves,4.08,Adventure
+19,16543,LEGO Batman,3.76,Family
+19,586122,Suspects: Mystery Mansion,3.88,Casual
+19,16739,Delta Force,3.84,Massively Multiplayer
+19,12606,Resident Evil 7 / Biohazard 7 Teaser: Beginning Hour,3.79,Adventure
+20,31721,The Immortal,3.82,Adventure
+20,748414,Aperture Desk Job,3.81,Casual
+20,12606,Resident Evil 7 / Biohazard 7 Teaser: Beginning Hour,3.79,Adventure
+20,359376,Gravitas,4.0,Indie
+20,10234,Jazzpunk,3.98,Indie
+21,23043,Revenant,4.06,Adventure
+21,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+21,748414,Aperture Desk Job,3.81,Casual
+21,16543,LEGO Batman,3.76,Family
+21,960527,Nocturnal,4.0,Adventure
+22,31721,The Immortal,3.82,Adventure
+22,9753,Rising Storm 2: VIETNAM,3.76,Action
+22,1071,Job Simulator,3.83,Action
+22,34334,Antarctic Adventure,3.88,Adventure
+22,74080,Age of War,4.18,Casual
+23,959817,Wuthering Waves,4.08,Adventure
+23,19374,Ghost Master,3.75,Strategy
+23,74080,Age of War,4.18,Casual
+23,665016,Blade of Darkness,3.83,Indie
+23,9515,We Were Here,3.78,Adventure
+24,12895,Surge,4.0,Indie
+24,216268,Enderal: Forgotten Stories,4.31,Adventure
+24,436825,Swallow the Sea,4.11,Casual
+24,74080,Age of War,4.18,Casual
+24,290899,Into the Radius VR,4.21,Action
+25,23043,Revenant,4.06,Adventure
+25,44484,BattleBit,4.06,Indie
+25,9753,Rising Storm 2: VIETNAM,3.76,Action
+25,16739,Delta Force,3.84,Massively Multiplayer
+25,34334,Antarctic Adventure,3.88,Adventure
+26,427567,Bear Party: Adventure,4.33,Adventure
+26,34334,Antarctic Adventure,3.88,Adventure
+26,665016,Blade of Darkness,3.83,Indie
+26,216268,Enderal: Forgotten Stories,4.31,Adventure
+26,748414,Aperture Desk Job,3.81,Casual
+27,484223,Perfect Vermin,4.1,Casual
+27,12895,Surge,4.0,Indie
+27,9800,Streets of Rogue,3.83,Indie
+27,1071,Job Simulator,3.83,Action
+27,74080,Age of War,4.18,Casual
+28,74080,Age of War,4.18,Casual
+28,9551,Deep Rock Galactic,4.11,Indie
+28,23043,Revenant,4.06,Adventure
+28,959817,Wuthering Waves,4.08,Adventure
+28,9753,Rising Storm 2: VIETNAM,3.76,Action
+29,290899,Into the Radius VR,4.21,Action
+29,12606,Resident Evil 7 / Biohazard 7 Teaser: Beginning Hour,3.79,Adventure
+29,28222,skate.,4.18,Action
+29,16543,LEGO Batman,3.76,Family
+29,9800,Streets of Rogue,3.83,Indie
+30,484223,Perfect Vermin,4.1,Casual
+30,12895,Surge,4.0,Indie
+30,9800,Streets of Rogue,3.83,Indie
+30,1071,Job Simulator,3.83,Action
+30,74080,Age of War,4.18,Casual
+31,9515,We Were Here,3.78,Adventure
+31,436825,Swallow the Sea,4.11,Casual
+31,586122,Suspects: Mystery Mansion,3.88,Casual
+31,748414,Aperture Desk Job,3.81,Casual
+31,34334,Antarctic Adventure,3.88,Adventure
+32,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+32,216268,Enderal: Forgotten Stories,4.31,Adventure
+32,665016,Blade of Darkness,3.83,Indie
+32,34334,Antarctic Adventure,3.88,Adventure
+32,1071,Job Simulator,3.83,Action
+33,960527,Nocturnal,4.0,Adventure
+33,39448,Tag: The Power of Paint,4.38,Action
+33,9753,Rising Storm 2: VIETNAM,3.76,Action
+33,216268,Enderal: Forgotten Stories,4.31,Adventure
+33,973793,100 Asian Cats,3.87,Adventure
+34,440114,1v1.LOL,4.25,Adventure
+34,23043,Revenant,4.06,Adventure
+34,23254,Zumbi Blocks,3.88,Adventure
+34,427567,Bear Party: Adventure,4.33,Adventure
+34,37194,Devil May Cry 3: Dante's Awakening Special Edition,4.41,Adventure
+35,748414,Aperture Desk Job,3.81,Casual
+35,216268,Enderal: Forgotten Stories,4.31,Adventure
+35,31721,The Immortal,3.82,Adventure
+35,16543,LEGO Batman,3.76,Family
+35,9753,Rising Storm 2: VIETNAM,3.76,Action
+36,586122,Suspects: Mystery Mansion,3.88,Casual
+36,216268,Enderal: Forgotten Stories,4.31,Adventure
+36,748414,Aperture Desk Job,3.81,Casual
+36,973793,100 Asian Cats,3.87,Adventure
+36,10234,Jazzpunk,3.98,Indie
+37,34334,Antarctic Adventure,3.88,Adventure
+37,665016,Blade of Darkness,3.83,Indie
+37,748414,Aperture Desk Job,3.81,Casual
+37,216268,Enderal: Forgotten Stories,4.31,Adventure
+37,10234,Jazzpunk,3.98,Indie
+38,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+38,1071,Job Simulator,3.83,Action
+38,10942,To The Top,3.9,Racing
+38,12606,Resident Evil 7 / Biohazard 7 Teaser: Beginning Hour,3.79,Adventure
+38,748414,Aperture Desk Job,3.81,Casual
+39,10234,Jazzpunk,3.98,Indie
+39,966102,Aimlabs,3.86,Shooter
+39,748414,Aperture Desk Job,3.81,Casual
+39,960527,Nocturnal,4.0,Adventure
+39,959817,Wuthering Waves,4.08,Adventure
+40,10397,Rivals of Aether,3.77,Indie
+40,748414,Aperture Desk Job,3.81,Casual
+40,74080,Age of War,4.18,Casual
+40,16543,LEGO Batman,3.76,Family
+40,973086,100 Christmas Cats,3.88,Adventure
+41,959817,Wuthering Waves,4.08,Adventure
+41,440114,1v1.LOL,4.25,Adventure
+41,973793,100 Asian Cats,3.87,Adventure
+41,966102,Aimlabs,3.86,Shooter
+41,34334,Antarctic Adventure,3.88,Adventure
+42,1071,Job Simulator,3.83,Action
+42,665016,Blade of Darkness,3.83,Indie
+42,290899,Into the Radius VR,4.21,Action
+42,959817,Wuthering Waves,4.08,Adventure
+42,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+43,16543,LEGO Batman,3.76,Family
+43,74080,Age of War,4.18,Casual
+43,290899,Into the Radius VR,4.21,Action
+43,959817,Wuthering Waves,4.08,Adventure
+43,12606,Resident Evil 7 / Biohazard 7 Teaser: Beginning Hour,3.79,Adventure
+44,31721,The Immortal,3.82,Adventure
+44,1071,Job Simulator,3.83,Action
+44,748414,Aperture Desk Job,3.81,Casual
+44,16543,LEGO Batman,3.76,Family
+44,427567,Bear Party: Adventure,4.33,Adventure
+45,440114,1v1.LOL,4.25,Adventure
+45,442840,Space Station 14,4.33,Adventure
+45,973793,100 Asian Cats,3.87,Adventure
+45,28222,skate.,4.18,Action
+45,16543,LEGO Batman,3.76,Family
+46,39448,Tag: The Power of Paint,4.38,Action
+46,9753,Rising Storm 2: VIETNAM,3.76,Action
+46,959817,Wuthering Waves,4.08,Adventure
+46,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+46,966102,Aimlabs,3.86,Shooter
+47,16543,LEGO Batman,3.76,Family
+47,973793,100 Asian Cats,3.87,Adventure
+47,16739,Delta Force,3.84,Massively Multiplayer
+47,748414,Aperture Desk Job,3.81,Casual
+47,966102,Aimlabs,3.86,Shooter
+48,12895,Surge,4.0,Indie
+48,10397,Rivals of Aether,3.77,Indie
+48,74080,Age of War,4.18,Casual
+48,290899,Into the Radius VR,4.21,Action
+48,9800,Streets of Rogue,3.83,Indie
+49,959817,Wuthering Waves,4.08,Adventure
+49,440114,1v1.LOL,4.25,Adventure
+49,973793,100 Asian Cats,3.87,Adventure
+49,966102,Aimlabs,3.86,Shooter
+49,34334,Antarctic Adventure,3.88,Adventure
+50,31721,The Immortal,3.82,Adventure
+50,960527,Nocturnal,4.0,Adventure
+50,44484,BattleBit,4.06,Indie
+50,10234,Jazzpunk,3.98,Indie
+50,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+51,12895,Surge,4.0,Indie
+51,10397,Rivals of Aether,3.77,Indie
+51,74080,Age of War,4.18,Casual
+51,290899,Into the Radius VR,4.21,Action
+51,9800,Streets of Rogue,3.83,Indie
+52,665016,Blade of Darkness,3.83,Indie
+52,9800,Streets of Rogue,3.83,Indie
+52,74080,Age of War,4.18,Casual
+52,23043,Revenant,4.06,Adventure
+52,16543,LEGO Batman,3.76,Family
+53,19374,Ghost Master,3.75,Strategy
+53,34334,Antarctic Adventure,3.88,Adventure
+53,74080,Age of War,4.18,Casual
+53,959817,Wuthering Waves,4.08,Adventure
+53,12895,Surge,4.0,Indie
+54,442840,Space Station 14,4.33,Adventure
+54,23043,Revenant,4.06,Adventure
+54,440114,1v1.LOL,4.25,Adventure
+54,427567,Bear Party: Adventure,4.33,Adventure
+54,37194,Devil May Cry 3: Dante's Awakening Special Edition,4.41,Adventure
+55,9515,We Were Here,3.78,Adventure
+55,9800,Streets of Rogue,3.83,Indie
+55,290899,Into the Radius VR,4.21,Action
+55,1071,Job Simulator,3.83,Action
+55,74080,Age of War,4.18,Casual
+56,16739,Delta Force,3.84,Massively Multiplayer
+56,440114,1v1.LOL,4.25,Adventure
+56,23043,Revenant,4.06,Adventure
+56,74080,Age of War,4.18,Casual
+56,973086,100 Christmas Cats,3.88,Adventure
+57,28222,skate.,4.18,Action
+57,665016,Blade of Darkness,3.83,Indie
+57,10942,To The Top,3.9,Racing
+57,74080,Age of War,4.18,Casual
+57,440114,1v1.LOL,4.25,Adventure
+58,44484,BattleBit,4.06,Indie
+58,9753,Rising Storm 2: VIETNAM,3.76,Action
+58,10397,Rivals of Aether,3.77,Indie
+58,665016,Blade of Darkness,3.83,Indie
+58,966102,Aimlabs,3.86,Shooter
+59,10397,Rivals of Aether,3.77,Indie
+59,748414,Aperture Desk Job,3.81,Casual
+59,74080,Age of War,4.18,Casual
+59,16543,LEGO Batman,3.76,Family
+59,973086,100 Christmas Cats,3.88,Adventure
+60,966102,Aimlabs,3.86,Shooter
+60,31721,The Immortal,3.82,Adventure
+60,16543,LEGO Batman,3.76,Family
+60,1071,Job Simulator,3.83,Action
+60,748414,Aperture Desk Job,3.81,Casual
+61,74080,Age of War,4.18,Casual
+61,10234,Jazzpunk,3.98,Indie
+61,960527,Nocturnal,4.0,Adventure
+61,28222,skate.,4.18,Action
+61,16543,LEGO Batman,3.76,Family
+62,484223,Perfect Vermin,4.1,Casual
+62,12895,Surge,4.0,Indie
+62,9800,Streets of Rogue,3.83,Indie
+62,1071,Job Simulator,3.83,Action
+62,74080,Age of War,4.18,Casual
+63,484223,Perfect Vermin,4.1,Casual
+63,665016,Blade of Darkness,3.83,Indie
+63,74080,Age of War,4.18,Casual
+63,19374,Ghost Master,3.75,Strategy
+63,9551,Deep Rock Galactic,4.11,Indie
+64,966102,Aimlabs,3.86,Shooter
+64,31721,The Immortal,3.82,Adventure
+64,16543,LEGO Batman,3.76,Family
+64,1071,Job Simulator,3.83,Action
+64,748414,Aperture Desk Job,3.81,Casual
+65,959817,Wuthering Waves,4.08,Adventure
+65,586122,Suspects: Mystery Mansion,3.88,Casual
+65,74080,Age of War,4.18,Casual
+65,16543,LEGO Batman,3.76,Family
+65,9800,Streets of Rogue,3.83,Indie
+66,290899,Into the Radius VR,4.21,Action
+66,9551,Deep Rock Galactic,4.11,Indie
+66,959817,Wuthering Waves,4.08,Adventure
+66,216268,Enderal: Forgotten Stories,4.31,Adventure
+66,12895,Surge,4.0,Indie
+67,427567,Bear Party: Adventure,4.33,Adventure
+67,973793,100 Asian Cats,3.87,Adventure
+67,23043,Revenant,4.06,Adventure
+67,23254,Zumbi Blocks,3.88,Adventure
+67,37194,Devil May Cry 3: Dante's Awakening Special Edition,4.41,Adventure
+68,10397,Rivals of Aether,3.77,Indie
+68,748414,Aperture Desk Job,3.81,Casual
+68,74080,Age of War,4.18,Casual
+68,16543,LEGO Batman,3.76,Family
+68,973086,100 Christmas Cats,3.88,Adventure
+69,973793,100 Asian Cats,3.87,Adventure
+69,440114,1v1.LOL,4.25,Adventure
+69,12606,Resident Evil 7 / Biohazard 7 Teaser: Beginning Hour,3.79,Adventure
+69,23254,Zumbi Blocks,3.88,Adventure
+69,959817,Wuthering Waves,4.08,Adventure
+70,959817,Wuthering Waves,4.08,Adventure
+70,440114,1v1.LOL,4.25,Adventure
+70,973793,100 Asian Cats,3.87,Adventure
+70,966102,Aimlabs,3.86,Shooter
+70,34334,Antarctic Adventure,3.88,Adventure
+71,1071,Job Simulator,3.83,Action
+71,966102,Aimlabs,3.86,Shooter
+71,34334,Antarctic Adventure,3.88,Adventure
+71,74080,Age of War,4.18,Casual
+71,748414,Aperture Desk Job,3.81,Casual
+72,74080,Age of War,4.18,Casual
+72,9551,Deep Rock Galactic,4.11,Indie
+72,23043,Revenant,4.06,Adventure
+72,959817,Wuthering Waves,4.08,Adventure
+72,9753,Rising Storm 2: VIETNAM,3.76,Action
+73,440114,1v1.LOL,4.25,Adventure
+73,960527,Nocturnal,4.0,Adventure
+73,994787,Awaria,4.2,Indie
+73,16543,LEGO Batman,3.76,Family
+73,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+74,966102,Aimlabs,3.86,Shooter
+74,665016,Blade of Darkness,3.83,Indie
+74,16739,Delta Force,3.84,Massively Multiplayer
+74,216268,Enderal: Forgotten Stories,4.31,Adventure
+74,427567,Bear Party: Adventure,4.33,Adventure
+75,665016,Blade of Darkness,3.83,Indie
+75,19374,Ghost Master,3.75,Strategy
+75,959817,Wuthering Waves,4.08,Adventure
+75,12895,Surge,4.0,Indie
+75,74080,Age of War,4.18,Casual
+76,10942,To The Top,3.9,Racing
+76,23043,Revenant,4.06,Adventure
+76,960527,Nocturnal,4.0,Adventure
+76,1071,Job Simulator,3.83,Action
+76,966102,Aimlabs,3.86,Shooter
+77,966102,Aimlabs,3.86,Shooter
+77,10942,To The Top,3.9,Racing
+77,44484,BattleBit,4.06,Indie
+77,23043,Revenant,4.06,Adventure
+77,39448,Tag: The Power of Paint,4.38,Action
+78,23043,Revenant,4.06,Adventure
+78,16739,Delta Force,3.84,Massively Multiplayer
+78,34334,Antarctic Adventure,3.88,Adventure
+78,427567,Bear Party: Adventure,4.33,Adventure
+78,359376,Gravitas,4.0,Indie
+79,39448,Tag: The Power of Paint,4.38,Action
+79,12606,Resident Evil 7 / Biohazard 7 Teaser: Beginning Hour,3.79,Adventure
+79,1071,Job Simulator,3.83,Action
+79,10234,Jazzpunk,3.98,Indie
+79,16543,LEGO Batman,3.76,Family
+80,290899,Into the Radius VR,4.21,Action
+80,665016,Blade of Darkness,3.83,Indie
+80,1071,Job Simulator,3.83,Action
+80,9551,Deep Rock Galactic,4.11,Indie
+80,959817,Wuthering Waves,4.08,Adventure
+81,16739,Delta Force,3.84,Massively Multiplayer
+81,23254,Zumbi Blocks,3.88,Adventure
+81,440114,1v1.LOL,4.25,Adventure
+81,23043,Revenant,4.06,Adventure
+81,74080,Age of War,4.18,Casual
+82,28222,skate.,4.18,Action
+82,665016,Blade of Darkness,3.83,Indie
+82,10942,To The Top,3.9,Racing
+82,74080,Age of War,4.18,Casual
+82,440114,1v1.LOL,4.25,Adventure
+83,9753,Rising Storm 2: VIETNAM,3.76,Action
+83,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+83,959817,Wuthering Waves,4.08,Adventure
+83,960527,Nocturnal,4.0,Adventure
+83,44484,BattleBit,4.06,Indie
+84,9515,We Were Here,3.78,Adventure
+84,216268,Enderal: Forgotten Stories,4.31,Adventure
+84,74080,Age of War,4.18,Casual
+84,748414,Aperture Desk Job,3.81,Casual
+84,16543,LEGO Batman,3.76,Family
+85,586122,Suspects: Mystery Mansion,3.88,Casual
+85,748414,Aperture Desk Job,3.81,Casual
+85,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+85,1071,Job Simulator,3.83,Action
+85,10234,Jazzpunk,3.98,Indie
+86,436825,Swallow the Sea,4.11,Casual
+86,9515,We Were Here,3.78,Adventure
+86,216268,Enderal: Forgotten Stories,4.31,Adventure
+86,74080,Age of War,4.18,Casual
+86,973793,100 Asian Cats,3.87,Adventure
+87,31721,The Immortal,3.82,Adventure
+87,960527,Nocturnal,4.0,Adventure
+87,44484,BattleBit,4.06,Indie
+87,10234,Jazzpunk,3.98,Indie
+87,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+88,442840,Space Station 14,4.33,Adventure
+88,973086,100 Christmas Cats,3.88,Adventure
+88,973793,100 Asian Cats,3.87,Adventure
+88,74080,Age of War,4.18,Casual
+88,966102,Aimlabs,3.86,Shooter
+89,427567,Bear Party: Adventure,4.33,Adventure
+89,16739,Delta Force,3.84,Massively Multiplayer
+89,586122,Suspects: Mystery Mansion,3.88,Casual
+89,442840,Space Station 14,4.33,Adventure
+89,973793,100 Asian Cats,3.87,Adventure
+90,10234,Jazzpunk,3.98,Indie
+90,23043,Revenant,4.06,Adventure
+90,74080,Age of War,4.18,Casual
+90,290899,Into the Radius VR,4.21,Action
+90,39448,Tag: The Power of Paint,4.38,Action
+91,966102,Aimlabs,3.86,Shooter
+91,19374,Ghost Master,3.75,Strategy
+91,74080,Age of War,4.18,Casual
+91,34334,Antarctic Adventure,3.88,Adventure
+91,748414,Aperture Desk Job,3.81,Casual
+92,10397,Rivals of Aether,3.77,Indie
+92,34334,Antarctic Adventure,3.88,Adventure
+92,748414,Aperture Desk Job,3.81,Casual
+92,586122,Suspects: Mystery Mansion,3.88,Casual
+92,74080,Age of War,4.18,Casual
+93,966102,Aimlabs,3.86,Shooter
+93,665016,Blade of Darkness,3.83,Indie
+93,16739,Delta Force,3.84,Massively Multiplayer
+93,216268,Enderal: Forgotten Stories,4.31,Adventure
+93,427567,Bear Party: Adventure,4.33,Adventure
+94,19374,Ghost Master,3.75,Strategy
+94,479634,Frog Fractions: Game of the Decade Edition,3.92,Adventure
+94,966102,Aimlabs,3.86,Shooter
+94,10942,To The Top,3.9,Racing
+94,12606,Resident Evil 7 / Biohazard 7 Teaser: Beginning Hour,3.79,Adventure
+95,960527,Nocturnal,4.0,Adventure
+95,39448,Tag: The Power of Paint,4.38,Action
+95,359376,Gravitas,4.0,Indie
+95,74080,Age of War,4.18,Casual
+95,973793,100 Asian Cats,3.87,Adventure
+96,31721,The Immortal,3.82,Adventure
+96,9753,Rising Storm 2: VIETNAM,3.76,Action
+96,34334,Antarctic Adventure,3.88,Adventure
+96,39448,Tag: The Power of Paint,4.38,Action
+96,586122,Suspects: Mystery Mansion,3.88,Casual
+97,966102,Aimlabs,3.86,Shooter
+97,1071,Job Simulator,3.83,Action
+97,959817,Wuthering Waves,4.08,Adventure
+97,9800,Streets of Rogue,3.83,Indie
+97,960527,Nocturnal,4.0,Adventure
+98,9800,Streets of Rogue,3.83,Indie
+98,665016,Blade of Darkness,3.83,Indie
+98,19374,Ghost Master,3.75,Strategy
+98,16543,LEGO Batman,3.76,Family
+98,31721,The Immortal,3.82,Adventure
+99,23043,Revenant,4.06,Adventure
+99,290899,Into the Radius VR,4.21,Action
+99,9800,Streets of Rogue,3.83,Indie
+99,9753,Rising Storm 2: VIETNAM,3.76,Action
+99,74080,Age of War,4.18,Casual
+100,959817,Wuthering Waves,4.08,Adventure
+100,440114,1v1.LOL,4.25,Adventure
+100,973793,100 Asian Cats,3.87,Adventure
+100,966102,Aimlabs,3.86,Shooter
+100,34334,Antarctic Adventure,3.88,Adventure

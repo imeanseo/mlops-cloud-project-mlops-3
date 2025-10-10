@@ -1,0 +1,54 @@
+name: Python CI - Test & Docker Build & Push
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-22.04
+
+    steps:
+      # 1. 코드 체크아웃
+      - uses: actions/checkout@v3
+
+      # 2. Python 설치
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      # 3. 단위 테스트 설치 & 실행
+      - name: Install dependencies
+        run: pip install pytest numpy
+
+      - name: Run unit tests
+        run: pytest tests/test_utils.py
+
+      # 4. Docker 로그인 (Access Token 사용)
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_ACCESS_TOKEN }}
+
+      # 5. 태그 계산 (예: 기존 v6 → v7)
+      - name: Calculate next tag
+        id: tag
+        run: |
+          CURRENT_TAG=v6
+          NUM=${CURRENT_TAG#v}
+          NEXT_NUM=$((NUM+1))
+          echo "NEXT_TAG=v$NEXT_NUM" >> $GITHUB_ENV
+
+      # 6. Docker 이미지 빌드
+      - name: Build Docker image
+        run: |
+          docker build -t moongs95/third-party-mlops:${{ env.NEXT_TAG }} ./opt
+
+      # 7. Docker Hub 푸시
+      - name: Push Docker image
+        run: |
+          docker push moongs95/third-party-mlops:${{ env.NEXT_TAG }}

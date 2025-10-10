@@ -1,6 +1,6 @@
 import os
 import pickle
-import datetime
+from datetime import datetime, timezone, timedelta
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -51,9 +51,9 @@ def model_save(model_name, sim_matrix, train_matrix, epoch, recall_history=None)
     """
     save_dir = model_dir(model_name)
     os.makedirs(save_dir, exist_ok=True)
-
-    current_time = datetime.datetime.now().strftime("%y%m%d%H%M%S")
-    dst = os.path.join(save_dir, f"{model_name}_E{epoch}_T{current_time}.pkl")
+    kst = timezone(timedelta(hours=9))
+    timestamp = datetime.now(kst).strftime("%Y%m%d_%H%M%S")
+    dst = os.path.join(save_dir, f"{model_name}_E{epoch}_T{timestamp}.pkl")
 
     save_data = {
         "epoch": epoch,
@@ -67,3 +67,5 @@ def model_save(model_name, sim_matrix, train_matrix, epoch, recall_history=None)
         pickle.dump(save_data, f)
 
     print(f"Model saved to {dst}")
+
+    return dst

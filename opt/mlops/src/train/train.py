@@ -23,17 +23,12 @@ def train_model(train_matrix: pd.DataFrame, val_matrix: pd.DataFrame, n_epochs=1
         print(f"Epoch {epoch}: Recall@5 = {recall:.4f}")
 
     # 모델 저장
-    model_save(
+    model_path = model_save(
         model_name="itemCF",
         sim_matrix=model.item_similarity_df.values,
         train_matrix=train_matrix,
         epoch=n_epochs,
         recall_history=recall_history
     )
-    # 모델 저장
-    # save_dir = model_dir("item_cf")
-    # os.makedirs(save_dir, exist_ok=True)
-    # model_path = os.path.join(save_dir, "item_cf_model.pkl")
-    # pd.to_pickle(model, model_path)
 
-    return model, recall_history
+    return model, recall_history, model_path

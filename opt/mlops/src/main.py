@@ -1,5 +1,6 @@
 import os
 import sys
+from datetime import datetime, timezone, timedelta
 
 # sys.path 경로 리스트 나옴
 sys.path.append(
@@ -10,13 +11,13 @@ import fire
 from dotenv import load_dotenv
 import wandb
 
-from src.utils.utils import project_path, auto_increment_run_suffix
+from src.utils.utils import project_path, auto_increment_run_suffix, upload_to_s3
 from src.dataset.games_log import load_games_log
 from src.dataset.data_loader import create_user_item_matrix, train_val_split
 from src.train.train import train_model
 from src.model.game_item_cf import ItemCF
 from src.evaluate.evaluates import recommend_items
-from src.inference.inference import ItemCFInference
+from src.inference.inference import ItemCFInference, recommend_all_to_csv
 
 def get_runs(project_name):
     try:
@@ -117,7 +118,7 @@ def main():
     )
 
 
-    model, recall_history = train_model(
+    model, recall_history, model_path = train_model(
         train_matrix,
         val_matrix,
         n_epochs=10,
@@ -139,6 +140,16 @@ def main():
     wandb.log({"final_recall": recall_history[-1]})
     wandb.finish()
 
+    # ----------------------
+    # 8. 모델을 S3에 업로드
+    # ----------------------
+    bucket = os.getenv("S3_BUCKET_NAME")
+    if bucket:
+        s3_key = f"models/itemCF/{os.path.basename(model_path)}"
+        upload_to_s3(model_path, bucket, s3_key)
+    else:
+        print("S3_BUCKET_NAME 환경변수가 없습니다. 업로드 생략.")
+
 def recommend(user_id: int, top_k: int = 5):
     """
     커맨드라인에서 추론 테스트
@@ -149,9 +160,40 @@ def recommend(user_id: int, top_k: int = 5):
     print(f"user_id={user_id} 추천 결과: {games}")
     return games
 
-if __name__ == "__main__" and ("recommend" not in sys.argv):
+# ----------------------
+# 추론 CSV 생성 및 S3 업로드
+# ----------------------
+def recommend_all(top_k: int = 5):
+    """
+    1~100번 유저 추천 결과 CSV 생성 + S3 업로드
+    """
+    user_ids = range(1, 101)
+    output_csv = recommend_all_to_csv(user_ids=user_ids, top_k=top_k)
+
+    # S3 업로드
+    bucket = os.getenv("S3_BUCKET_NAME")
+    if bucket:
+        kst = timezone(timedelta(hours=9))
+        timestamp = datetime.now(kst).strftime("%Y%m%d_%H%M%S")
+        s3_key = f"inference_results/recommendations_{timestamp}.csv"
+        print("📤 S3 업로드 시작")
+        print("="*60)
+        upload_to_s3(output_csv, bucket, s3_key)
+    else:
+        print("⚠️ S3_BUCKET_NAME 환경변수가 없습니다. 업로드 생략.")
+
+    print("="*60)
+    print("✅ 전체 작업 완료!")
+    print("="*60)
+    print(f"   로컬 파일: {output_csv}")
+    if bucket:
+        print(f"   S3 경로: s3://{bucket}/{s3_key}")
+    print("="*60)
+
+if __name__ == "__main__" and ("recommend" not in sys.argv and "recommend_all" not in sys.argv):
     main()
 else:
     fire.Fire({
-        "recommend": recommend
+        "recommend": recommend,
+        "recommend_all": recommend_all
     })
