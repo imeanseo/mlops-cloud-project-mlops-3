@@ -63,11 +63,8 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <sub>✅ 모델 학습 및 평가</sub><br>
 <sub>✅ 모델 추론</sub><br>
 <sub>✅ 모델 배포</sub><br>
-<<<<<<< HEAD
 <sub>✅ Airflow 배치 서빙 파이프라인</sub><br>
 <sub>✅ 웹 인터페이스</sub><br>
-=======
->>>>>>> 780fedf1317a631e2003d962f1de40347ab1016a
 <sub>✅ 정적 웹사이트 배포</sub><br>
 <sub>✅ PPT 자료 구성</sub>
 </td>
@@ -78,13 +75,9 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <sub>✅ 모델 학습 및 평가</sub><br>
 <sub>✅ 모델 추론</sub><br>
 <sub>✅ 모델 배포</sub><br>
-<<<<<<< HEAD
 <sub>✅ Airflow 배치 서빙 파이프라인</sub><br>
 <sub>✅ PPT 자료 구성</sub><br>
 <sub>✅ 시스템,작품 아키텍쳐 구성</sub><br>
-=======
-<sub>✅ PPT 자료 구성</sub><br>
->>>>>>> 780fedf1317a631e2003d962f1de40347ab1016a
 <sub>✅ ReadMe 구성</sub>
 </td>
 <td align="center">
@@ -92,12 +85,8 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <sub>✅ 주제 선정</sub><br>
 <sub>✅ 데이터 전처리</sub><br>
 <sub>✅ Modeling</sub><br>
-<<<<<<< HEAD
 <sub>✅ Airflow 배치 서빙 파이프라인</sub><br>
 <sub>✅ 웹 인터페이스</sub><br>
-=======
-<sub>✅ 모델 배포</sub><br>
->>>>>>> 780fedf1317a631e2003d962f1de40347ab1016a
 <sub>✅ UI 변경</sub><br>
 <sub>✅ PPT 자료 구성</sub>
 </td>
@@ -121,11 +110,7 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <a href="https://github.com/Leesoomin97"><b>🐿️ 이수민</b></a>
 </td>
 <td align="center">
-<<<<<<< HEAD
 <a href="https://github.com/tourism76"><b>🧑 이승호</b></a>
-=======
-<a href="https://github.com/tourism76"><b>🧑🏻‍🦱 이승호</b></a>
->>>>>>> 780fedf1317a631e2003d962f1de40347ab1016a
 </td>
 </tr>
 <tr>
@@ -133,22 +118,15 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <sub><b>📌 담당 역할</b></sub><br>
 <sub>✅ 주제 선정</sub><br>
 <sub>✅ 게임 이미지 데이터 수집</sub><br>
-<<<<<<< HEAD
 <sub>✅ AWS 자료 조사</sub>
-=======
->>>>>>> 780fedf1317a631e2003d962f1de40347ab1016a
 </td>
 <td align="center">
 <sub><b>📌 담당 역할</b></sub><br>
 <sub>✅ 주제 선정</sub><br>
 <sub>✅ 데이터 전처리</sub><br>
 <sub>✅ Modeling</sub><br>
-<<<<<<< HEAD
 <sub>✅ Airflow 배치 서빙 파이프라인</sub><br>
 <sub>✅ 웹 인터페이스</sub><br>
-=======
-<sub>✅ 모델 배포</sub><br>
->>>>>>> 780fedf1317a631e2003d962f1de40347ab1016a
 <sub>✅ UI 변경</sub><br>
 <sub>✅ PPT 자료 구성</sub>
 </td>
@@ -190,7 +168,6 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 ## 📁 프로젝트 구조
 ```
 .
-<<<<<<< HEAD
 ├── .github
 │   └── workflows
 │       └── ci.yml
@@ -248,53 +225,6 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 │   └── requirements.txt
 └── tests
     └── test_utils.py
-=======
-├── data-prepare
-│   ├── crawler.py
-│   ├── main.py
-│   ├── preprocessing.py
-│   └── result
-│       ├── games_log.csv
-│       └── popular_games.csv
-├── mlops
-│   ├── dataset
-│   │   ├── games_log.csv
-│   │   └── inference_results
-│   │       ├── recommendations_20251001_194849.csv
-│   │       ├── recommendations_20251004_202024.csv
-│   │       └── recommendations_20251008_102139.csv
-│   ├── models
-│   │   └── itemCF
-│   │       ├── itemCF_E10_T20251004_201952.pkl
-│   │       ├── itemCF_E10_T20251008_102040.pkl
-│   │       └── itemCF_E10_T20251008_102101.pkl
-│   └── src
-│       ├── dataset
-│       │   ├── data_loader.py
-│       │   └── games_log.py
-│       ├── evaluate
-│       │   └── evaluates.py
-│       ├── inference
-│       │   └── inference.py
-│       ├── main.py
-│       ├── model
-│       │   └── game_item_cf.py
-│       ├── save_to_db.py
-│       ├── static
-│       │   ....
-│       │   ├── 9753.jpg
-│       │   ├── 9800.jpg
-│       │   └── 994787.jpg
-│       ├── templates
-│       │   └── index.html
-│       ├── train
-│       │   └── train.py
-│       ├── utils
-│       │   ├── enums.py
-│       │   └── utils.py
-│       └── webapp.py
-└── requirements.txt
->>>>>>> 780fedf1317a631e2003d962f1de40347ab1016a
 ```
 
 <br>
@@ -340,11 +270,7 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 - 일정 주기로 입력 데이터 일괄 처리 후 MySQL/S3에 결과 저장
 - DAG 기반 워크플로우 관리로 재활용 가능한 배치 예측
 
-<<<<<<< HEAD
 ### 4. 자동화된 MLOps 파이프라인
-=======
-### 4. 완전 자동화된 MLOps 파이프라인
->>>>>>> 780fedf1317a631e2003d962f1de40347ab1016a
 - **GitHub Actions CI/CD**: 
   - 코드 푸시 → Unit Test → Docker 이미지 빌드 → DockerHub Push
   - Airflow DAG 자동 트리거 → EC2 내 FastAPI 서비스 배포
@@ -358,7 +284,6 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 <br>
 
 ## 🛠️ 시스템 아키텍처
-<<<<<<< HEAD
 
 
 ```
@@ -448,198 +373,17 @@ Item-based Collaborative Filtering 알고리즘을 기반으로 사용자 맞춤
 - **EC2 (인프라 내)**: MySQL DB (EC2 인프라 내 저장) → FastAPI (웹 페이지) → Web Interface
 - **독립 확장**: 각 컴포넌트 독립적 스케일링 가능
 
-=======
-```
-┌──────────────────────────────────────────────────────────┐
-│ GitHub Actions (CI/CD) │
-│ Code Push → Unit Test → Docker Build → DockerHub │
-└─────────────────────────┬────────────────────────────────┘
-↓
-┌───────────────────────┐
-│ RAWG API │
-│ (Raw Games) │
-└──────────┬────────────┘
-↓
-┌───────────────────────┐
-│ Data Pipeline │
-│ - crawler.py │
-│ - main.py │
-│ - preprocessing │
-└──────────┬────────────┘
-↓
-┌───────────────────────┐
-│ MySQL Database │
-│ games_log.csv │
-└──────────┬────────────┘
-│
-┌────────────────┴────────────────┐
-↓ ↓
-┌──────────────────┐ ┌──────────────────┐
-│ Model Training │ │ Airflow Pipeline │
-│ - ItemCF │ │ - Model Update │
-│ - Epoch=10 │ │ - Batch Predict │
-│ - WandB Monitor │ │ - DB Storage │
-└────────┬─────────┘ └────────┬─────────┘
-↓ ↓
-┌──────────────────┐ ┌──────────────────┐
-│ Model Storage │◀───────────│ MySQL Results │
-│ S3 + Versioning │ │ (Pre-computed) │
-│ (v1, v2...v7) │ └──────────────────┘
-└────────┬─────────┘
-↓
-┌──────────────────┐
-│ FastAPI Server │
-│ - Model Load │
-│ - RESTful API │
-│ - Health Check │
-└────────┬─────────┘
-↓
-┌──────────────────┐
-│ Web Interface │
-│ webapp.py │
-│ User-friendly │
-└──────────────────┘
-```
-
-**핵심 아키텍처 특징**:
-- **완전 자동화**: 데이터 수집 → 전처리 → 학습 → DB 적재 → 웹 배포 전 과정 자동화
-- **이중 서빙 시스템**: 실시간(FastAPI) + 배치(Airflow) 병행 운영
-- **지속적 통합/배포**: GitHub Actions 기반 CI/CD로 효율적 운영
-- **재현성 보장**: Docker 컨테이너화 + 버전 관리로 환경 일관성 확보
->>>>>>> 780fedf1317a631e2003d962f1de40347ab1016a
 
 <br>
 
 ## 🛠️ 작품 아키텍처 
 
 <div align="center">
-<<<<<<< HEAD
   <img src="https://github.com/user-attachments/assets/bf86a01a-1b8a-49cd-988b-93bfc27acc5e" width="900"/>
   <p><i>게임 추천 시스템 MLOps 파이프라인 전체 구조</i></p>
 </div>
 
 
-=======
-  <img width="800" alt="MLOps Architecture" src="https://github.com/user-attachments/assets/f2aa6af3-5ed4-4cdc-8650-234a23948175" />
-  <p><i>게임 추천 시스템 MLOps 파이프라인 전체 구조</i></p>
-</div>
-
----
-
-## 📊 주요 구성 요소
-
-### 1️⃣ GitHub Actions CI/CD 파이프라인 🚀
-
-**워크플로우**: Code Push → Unit Test → Docker Build → DockerHub Push
-
-**주요 기능**:
-- ✅ **지속적 통합/배포(CI/CD) 자동화**
-- ✅ 코드 푸시 시 자동 테스트 실행
-- ✅ 테스트 통과 시 Docker 이미지 자동 빌드
-- ✅ DockerHub에 자동 업로드하여 배포 준비 완료
-
----
-
-### 2️⃣ 데이터 파이프라인 📥
-
-#### A. RAWG API (Data Source)
-- 무료 게임 정보 API에서 데이터 수집
-- 약 40개의 게임 메타데이터 확보
-- API 엔드포인트: `/api/games`, `tags=free-to-play`, `genres=action`
-
-#### B. Data Processing Pipeline
-| 컴포넌트 | 역할 |
-|---------|------|
-| `crawler.py` | API 호출 자동화 |
-| `main.py` | 데이터 처리 로직 실행 |
-| `preprocessing` | 전처리 (텍스트 정제, 결측치 처리, 파생변수 생성) |
-
-#### C. MySQL Database
-- 전처리된 데이터를 `games_log.csv` 형태로 저장
-- 학습 데이터와 유저 로그 통합 관리
-
----
-
-### 3️⃣ 모델 학습 및 관리 파이프라인 🧠
-
-#### A. Model Training
-- **알고리즘**: Item-based Collaborative Filtering (ItemCF)
-- **학습 설정**: Epoch = 10 (10회 반복 학습)
-- **최적화**: 반복 학습을 통한 모델 성능 향상
-
-#### B. WandB Monitoring
-- **Weights & Biases**를 통한 실험 추적
-- Epoch별 Recall 변화 실시간 시각화
-- 과적합 방지 및 성능 모니터링 체계 구축
-
-#### C. Model Storage (S3 + Versioning)
-- **AWS S3**에 학습 완료 모델 저장
-- 버전 태깅: `model_v1`, `model_v2`, `model_v3`...
-- 성능 저하 시 이전 버전으로 롤백 가능
-
----
-
-### 4️⃣ Airflow 배치 서빙 파이프라인 ⏰
-
-#### 배치 처리 워크플로우
-```
-1. S3에서 최신 모델 로드
-↓
-
-2. MySQL에서 유저 데이터 가져오기
-↓
-
-3. 배치로 추천 결과 대량 계산
-↓
-
-4. 결과를 MySQL에 저장하여 재활용
-```
-
-#### 주요 기능
-- 🔄 **주기적 모델 업데이트**: 새로운 데이터로 자동 재학습
-- 📦 **배치 예측**: 일정 주기로 대량 데이터 일괄 처리
-- 💾 **DB Storage**: 추천 결과를 MySQL에 저장하여 재활용
-
----
-
-### 5️⃣ 실시간 서빙 시스템 (Deployment) 🌐
-
-#### A. Docker Container
-- FastAPI 서버를 Docker로 컨테이너화
-- 환경 일관성 보장 및 배포 용이성 확보
-- 이식성과 재현성 극대화
-
-#### B. FastAPI Server (Real-time)
-**부팅 프로세스**:
-- 컨테이너 시작 시 `.pkl` 모델 파일을 메모리에 적재
-- 워밍업(Warm-up) 수행으로 첫 요청 지연시간 최소화
-
-**API 엔드포인트**:
-| 엔드포인트 | 메서드 | 설명 |
-|-----------|--------|------|
-| `/predict` | POST | Top-K 게임 추천 반환 (유저 ID 입력) |
-| `/healthz` | GET | 서비스 가용성 모니터링 |
-
-**응답 특징**:
-- JSON 형식의 추천 결과 + 신뢰도 스코어
-
-#### C. MySQL Results (Pre-computed)
-- Airflow에서 **미리 계산한 추천 결과 조회**
-- 실시간 계산 부담 감소 → 응답 속도 대폭 향상
-- 배치+실시간 하이브리드 서빙 전략
-
----
-
-### 6️⃣ 웹 인터페이스 💻
-
-#### 사용자 UI (`webapp.py`)
-- 🎨 **사용자 친화적 UI**: 게임 추천 결과 시각화
-- 🔗 **FastAPI 연동**: 실시간 추천 데이터 조회
-- 🖼️ **게임 정보 표시**: 이미지 및 상세 정보 렌더링
-- 📱 **반응형 디자인**: 다양한 기기 지원
-
----
->>>>>>> 780fedf1317a631e2003d962f1de40347ab1016a
 
 ## 🚨 트러블 슈팅
 
@@ -671,21 +415,6 @@ GitHub Actions → Docker Build → Airflow DAG → FastAPI 배포까지 완전 
 
 ---
 
-<<<<<<< HEAD
-=======
-### 3. 실시간 서빙 지연시간 문제
-
-#### 문제
-요청마다 모델 파일 로딩으로 응답 시간 3~5초 소요
-
-#### 해결
-- 컨테이너 시작 시 모델 사전 로딩 (메모리 캐싱)
-- Airflow 배치 추론 + MySQL 저장 → FastAPI는 조회만 수행
-- `/healthz` 헬스체크 엔드포인트 구현
-
-#### 성과
-평균 응답 시간 **ms 단위**로 단축
->>>>>>> 780fedf1317a631e2003d962f1de40347ab1016a
 
 <br>
 
@@ -703,7 +432,6 @@ RAWG API 기반 **Item-based Collaborative Filtering 게임 추천 시스템**�
 | 모니터링 | WandB 실험 추적, S3 모델 버전 관리 (v1~v7) |
 | CI/CD | GitHub Actions 기반 테스트/빌드/배포 자동화 |
 
-<<<<<<< HEAD
 ### 🤖 모델 선정
 | 구성 요소           | 사용 기술           | 선정 이유 |
 |------------------|------------------|------|
@@ -713,8 +441,6 @@ RAWG API 기반 **Item-based Collaborative Filtering 게임 추천 시스템**�
 | Notification      | Slack Webhook    | 팀 내 주요 알림(파이프라인 완료, 오류 등)을 Slack으로 실시간 전송. 이미 팀 회의 플랫폼으로 Slack 사용 중이라 관리 효율 극대화 |
 | Storage           | AWS S3           | 대용량 모델 및 데이터 파일을 안정적으로 저장 가능. Airflow Operator를 통한 접근 용이, 버전 관리 및 백업에 유리 |
 | Deployment        | FastAPI + AWS EC2 | FastAPI는 경량·고성능 비동기 프레임워크로 ML 모델 서빙에 최적화. EC2는 AWS 무료 크레딧 지원과 유연한 확장성으로 실제 배포 환경 구현 가능 |
-=======
->>>>>>> 780fedf1317a631e2003d962f1de40347ab1016a
 ---
 
 ### 💡 핵심 인사이트
@@ -729,7 +455,6 @@ RAWG API 기반 **Item-based Collaborative Filtering 게임 추천 시스템**�
 - Airflow 워크플로우 자동화, GitHub Actions CI/CD가 **프로젝트 안정성과 생산성**의 핵심
 
 **협업**:
-<<<<<<< HEAD
 
 **🤝 협업 방식**
 - 자료공유: 디스코드, 슬랙
@@ -757,10 +482,6 @@ RAWG API 기반 **Item-based Collaborative Filtering 게임 추천 시스템**�
 
 **💡 문제 해결 방법**
 - 강사님 멘토링 및 피드백 적극 수용, 충분한 의사소통을 통해 코드 구현 과정 확인 후 디버깅 완료, 개인 역량에 맞는 역할 분배
-=======
-- 기술 스킬만큼 **커뮤니케이션**이 중요함을 깨달음
-- 문서화와 실시간 소통으로 팀 역량 격차 해소
->>>>>>> 780fedf1317a631e2003d962f1de40347ab1016a
 
 ---
 
@@ -777,7 +498,6 @@ RAWG API 기반 **Item-based Collaborative Filtering 게임 추천 시스템**�
 
 <br>
 
-
 ## 📰​ 참고자료
 
 [🎮 RAWG API](https://rawg.io/apidocs)
@@ -789,4 +509,3 @@ RAWG API 기반 **Item-based Collaborative Filtering 게임 추천 시스템**�
 [☁️ AWS S3](https://www.youtube.com/watch?v=LazOCTfdSeQ)
 
 <br>
-
